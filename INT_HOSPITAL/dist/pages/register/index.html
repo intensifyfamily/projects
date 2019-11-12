@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Offcanvas template · Bootstrap</title>
+
+    <link rel="canonical" href="https://v4ing.bootcss.com/docs/4.3/examples/offcanvas/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../static/css/bootstrap.css" rel="stylesheet">
+    <link href="register.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+        body {
+            padding: 0;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
+            <img class="mr-3" src="../../static/img/head/pic.jpeg" alt="" width="48" height="48">
+            <div class="lh-100">
+                 <h6 id="usrName" class="mb-0 text-white lh-100">请先登录</h6>
+                 <small id="userId">...</small>
+            </div>
+      </div>
+    </nav>
+
+<main role="main" class="container">
+    <div class="row">
+<div class="col-md-6">
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>编号</th>
+      <th>工号</th>
+      <th>医生姓名</th>
+      <th>科室</th>
+    </tr>
+  </thead>
+  <tbody id="register_list">
+
+
+
+  </tbody>
+</table>
+</div>
+<div class="col-md-6">
+
+        <hr class="mb-4">
+        <button id="sub_btn" class="btn btn-primary btn-lg btn-block" type="submit">提交病历</button>
+
+</div>
+
+
+</div>
+</main>
+    <script src="../../static/js/jquery-3.1.1.min.js"></script>
+     <script src="register.js"></script>
+  </body>
+</html>

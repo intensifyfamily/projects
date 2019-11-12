@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>注册</title>
+        <link rel="stylesheet" href="css/signup.css">
+
+   </head>
+
+<body>
+	
+<div id="regist" class="rgba">
+
+	<h2>Sign Up</h2>
+    <p id="err" style="color: red;"></p>
+	<form>
+		<div class="name-icon">  Username:</div>
+		<input id="username" type="text"  placeholder="请输入用户名…" class="name" required>
+
+		<div class="name-sex">Chose your sex:</div>
+		<input type="radio" class="sex" name="sex" value="g"/><i class="sexname">girl</i>
+		<input type="radio" class="sex" name="sex" value="b"/><i class="sexname">boy</i>
+		
+
+		<div class="name-iconi">Password1:</div>
+		<input type="password"  placeholder="请输入密码" class="password" required>
+
+		<div class="name-iconi">Password2:</div>
+		<input id="password" type="password"  placeholder="请再次输入密码" class="password" required>
+
+		<div class="name-email">Email:</div>
+		<input id="email" type="text"  placeholder="请输入邮箱" class="password" required>
+
+		
+		<div id="v_container" class="v_container"></div> 
+		<input type="text" id="code_input" placeholder="请输入验证码" class="code_input"><button id="my_button" class="code_button">验证</button>
+
+		<!-- 点击注册 -->
+		<input type="submit" value="sign up" class="login" id="submiti" onclick="onclickone()">
+
+	<a href="file:///D:/html%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2/javascript%E5%AD%A6%E4%B9%A0/%E7%99%BB%E5%BD%95/loginin.html" target="_blank" >registed go to login</a>
+
+</form>
+	
+</div>
+
+
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<script src="js/signup.js"></script>
+</html>
+

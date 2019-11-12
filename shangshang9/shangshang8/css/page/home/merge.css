@@ -1,0 +1,8 @@
+/*base*/
+@import url(../../ui/icon.css);
+@import url(../../ui/tips.css);
+@import url(../../ui/dialog.css);
+@import url(../../global/common.css);
+
+/* page */
+@import url(../text.css);

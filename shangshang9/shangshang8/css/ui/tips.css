@@ -1,0 +1,18 @@
+/************************************************************************************************
+* Tipæç¤ºä¿¡æ¯ç»„ä»¶
+*************************************************************************************************/
+
+.tip-wrap {
+    position: absolute;
+    display: none;
+    font-size: 12px;
+}
+
+.tip-arr-a, .tip-arr-b {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-style: dashed;
+    border-color: transparent;
+}

@@ -1,0 +1,111 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>挂号查看</title>
+
+    <link rel="canonical" href="https://v4ing.bootcss.com/docs/4.3/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../../static/css/bootstrap.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="patient.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="../../static/img/head/pic.jpeg" alt="" width="72" height="72">
+    <h2>挂号查看</h2>
+  </div>
+
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">电子病历信息</h4>
+      <div id="mistake" style="display: none" class="alert alert-danger"></div>
+      <form class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="username">真实姓名</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="请填写真实姓名" required>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="sex">性别</label>
+            <select class="custom-select d-block w-100" id="sex" required>
+              <option value="null">选择...</option>
+              <option value="boy">男</option>
+              <option value="girl">女</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="age">年龄</label>
+            <input type="number" class="form-control" id="age" placeholder="" required>
+          </div>
+        </div>
+          <div class="mb-3">
+            <label for="phone">电话</label>
+            <input type="text" class="form-control" id="phone" placeholder="" required>
+        </div>
+          <div class="mb-3">
+            <label for="addr">住址</label>
+            <input type="text" class="form-control" id="addr" placeholder="" required>
+        </div>
+          <div class="mb-3">
+            <label for="blood">血型</label>
+            <input type="text" class="form-control" id="blood" placeholder="" required>
+        </div>
+          <div class="mb-3">
+            <label for="idcd">身份证</label>
+            <input type="text" class="form-control" id="idcd" placeholder="" required>
+        </div>
+
+
+        <hr class="mb-4">
+        <button id="sub_btn" class="btn btn-primary btn-lg btn-block" type="submit">提交病历</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1"></p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#"></a></li>
+
+    </ul>
+  </footer>
+  </body>
+      <script src="../../static/js/jquery-3.1.1.min.js"></script>
+      <script src="../../static/js/bootstrap.js"></script>
+      <script src="../../static/js/bootstrap.bundle.js"></script>
+      <script src="../../static/js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../static/js/jquery-slim.min.js"><\/script>')</script><script src="../../static/js/bootstrap.bundle.js"></script>
+      <script src="patient.js"></script>
+</html>

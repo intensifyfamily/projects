@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:url(../img/background2.png) no-repeat 50% 50%;
+	background-size: cover;
+
+}
+
+a{
+	text-decoration: none;
+	float: left;
+	
+}
+
+#regist{
+	width: 600px;
+	height: 449px;
+	margin:160px auto;
+	border-radius: 20px;
+	border: 1px solid ##211D59;
+
+}
+.rgba{
+	
+	background-color: rgba(0,0,0,0.3);
+}
+
+#regist h2{
+	color: #ffff;
+	margin:5px auto;
+	text-align: center;
+	font-size: 30px;
+	font-family: Open Sans;
+}
+
+#regist .name-icon{
+	width: 535px;
+	height: 40px;
+	color: #fff;
+	float: left;
+	font-family: Open Sans;
+	font-size: 20px;
+	margin:4px 50px;
+
+
+}
+#regist .name-icon i{
+	background: url(../img/icon/xigua.png) no-repeat 50% 50%;
+	background-size: cover;
+	float: left;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin: 2px -24px;
+}
+/**/
+#regist .name-iconi{
+	width: 535px;
+	height: 40px;
+	color: #fff;
+	float: left;
+	font-family: Open Sans;
+	font-size: 20px;
+	margin:10px 50px;
+
+}
+
+#regist .name-iconi i{
+	background: url(../img/icon/caomei.png) no-repeat 50% 50%;
+	background-size: cover;
+	float: left;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin: 2px -24px;
+}
+
+#regist .name{
+	width: 535px;
+	height: 40px;
+	margin: 2px 24px;
+	/*border-radius: 10px;*/
+	/*border-color: #fff;*/
+}
+#regist .password{
+
+	width: 535px;
+	height: 40px;
+	margin:-5px 24px;
+	/*border-radius: 10px;*/
+	/*border-color: #fff;*/
+}
+
+#regist span{
+	margin:20px 24px;
+	color: #fff;
+	float: left;
+}
+
+#regist a{
+	margin: 20px 35px;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+}
+
+ #regist .login{
+ 	font-size: 20px;
+ 	color: #fff;
+ 	width: 200px;
+ 	height: 40px;
+ 	margin: 20px 195px;
+ 	background-color: #5B5C73;
+ 	border: none;
+ 	cursor: pointer;
+ 	border-radius: 15px;
+
+ }
+
+ #regist .login:hover{
+ 	background-color: black;
+ }

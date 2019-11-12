@@ -1,0 +1,46 @@
+.ui-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("images/ui/icon/icon.png") no-repeat;
+}
+
+.ui-icon-wx {
+    background-position: 0 0;
+}
+
+.ui-icon-phone {
+    background-position: -32px 0;
+}
+
+.ui-icon-heart {
+    background-position: -65px 0;
+}
+
+.ui-icon-android {
+    width: 20px;
+    height: 20px;
+    background-position: 0px -127px;
+}
+
+.ui-icon-ios {
+    width: 20px;
+    height: 20px;
+    background-position: -32px -127px;
+}
+
+.ui-icon-help{
+	width: 13px;
+    height: 13px;
+    background-position: -1px -33px;
+    vertical-align: -2px;
+    margin-left:5px;
+}
+
+.ui-icon-search {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("images/icon-search.png") center no-repeat;
+    vertical-align: middle;
+}

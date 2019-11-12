@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="894be617-3c44-411d-af6f-7a68d85ce462" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/section_9$run.coverage" NAME="run Coverage Results" MODIFIED="1572580898748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask-extended-example" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="tasks: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask1/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>关闭</find>
+      <find>add_time</find>
+      <find>expire_date</find>
+      <find>finished</find>
+      <find>finish</find>
+      <find>form</find>
+      <find>csr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>close</replace>
+      <replace>create_time</replace>
+      <replace>deadline</replace>
+      <replace>completed</replace>
+      <replace>complete</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flask-extended-example/app/__init__.py" />
+        <option value="$PROJECT_DIR$/flask-extended-example/db_migrate.py" />
+        <option value="$PROJECT_DIR$/flask-extended-example/db_create.py" />
+        <option value="$PROJECT_DIR$/myproject/app/templates/base.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/staff_list.html" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/models.py" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/forms.py" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/finished_list.py" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/task_list.html" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/finished_list.html" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/views.py" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/unfinished_list.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/flask-extended-example/app/templates/create_task.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/finished_list.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/unfinished_list.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/create_task.html" />
+        <option value="$PROJECT_DIR$/flask2/app/forms.py" />
+        <option value="$PROJECT_DIR$/flask2/app/models.py" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/uncompleted_list.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/completed_list.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/task_list.html" />
+        <option value="$PROJECT_DIR$/flask1/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/flask1/app/models.py" />
+        <option value="$PROJECT_DIR$/flask1/app/templates/create_task.html" />
+        <option value="$PROJECT_DIR$/flask1/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/flask2/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/flask1/app/send_email.py" />
+        <option value="$PROJECT_DIR$/flask2/app/views.py" />
+        <option value="$PROJECT_DIR$/flask1/app/templates/task_list.html" />
+        <option value="$PROJECT_DIR$/flask1/app/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-93" />
+    <option name="y" value="24" />
+    <option name="width" value="1890" />
+    <option name="height" value="1041" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+              <item name="flask1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+              <item name="flask1" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+              <item name="flask1" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+              <item name="flask2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+              <item name="flask2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="section_9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_9" type="462c0819:PsiDirectoryNode" />
+              <item name="flask2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="F:/py_doc/0" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\10942\Desktop\section_9\flask2\app" />
+      <recent name="C:\Users\10942\Desktop\section_9" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10942\Desktop\section_9" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="section_9" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask-extended-example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask-extended-example/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="894be617-3c44-411d-af6f-7a68d85ce462" name="Default Changelist" comment="" />
+      <created>1572580726620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572580726620</updated>
+      <workItem from="1572580732316" duration="1722000" />
+      <workItem from="1572588227851" duration="6740000" />
+      <workItem from="1572597577916" duration="1285000" />
+      <workItem from="1572605755861" duration="2040000" />
+      <workItem from="1572622382583" duration="8664000" />
+      <workItem from="1572654607802" duration="1915000" />
+      <workItem from="1572672586406" duration="16557000" />
+      <workItem from="1572691430395" duration="34000" />
+      <workItem from="1572970207139" duration="1739000" />
+      <workItem from="1573016927968" duration="12000" />
+      <workItem from="1573022637663" duration="29000" />
+      <workItem from="1573023876826" duration="185000" />
+      <workItem from="1573026635769" duration="321000" />
+      <workItem from="1573026983415" duration="156000" />
+      <workItem from="1573109006060" duration="4070000" />
+      <workItem from="1573128274495" duration="3674000" />
+      <workItem from="1573133601015" duration="590000" />
+      <workItem from="1573222485124" duration="465000" />
+      <workItem from="1573225217104" duration="3436000" />
+      <workItem from="1573297953516" duration="47000" />
+      <workItem from="1573359189528" duration="248000" />
+      <workItem from="1573361255007" duration="1518000" />
+      <workItem from="1573366961419" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55477000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36524823" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3295238" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3067376" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.16805324" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/create_staff.html" />
+    <entry file="file://$PROJECT_DIR$/myproject/app/forms.py" />
+    <entry file="file://$PROJECT_DIR$/myproject/app/templates/event_list.html" />
+    <entry file="file://$PROJECT_DIR$/myproject/app/templates/create_event.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="372" column="22" selection-start-line="372" selection-start-column="22" selection-end-line="372" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/forms.py" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/student_list.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/module_list.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/edit_student.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/edit_module.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/create_student.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/edit_staff.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/staff_list.html" />
+    <entry file="file://F:/py_doc/0/venv/Lib/site-packages/flask/templating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/finished_list.py" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/finished_list.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/unfinished_list.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/task_list.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/templates/create_task.html" />
+    <entry file="file://$PROJECT_DIR$/myproject/app/views.py" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/run.py" />
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/models.py" />
+    <entry file="file://$PROJECT_DIR$/flask2/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask-extended-example/app/views.py" />
+    <entry file="file://$PROJECT_DIR$/flask2/app/templates/create_task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/templates/completed_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/templates/uncompleted_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2824">
+          <caret line="866" selection-start-line="866" selection-end-line="866" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/send_email.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e78749e5-a063-4364-946a-6bc31ddb1452/schema/main/table/migrate_version">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e78749e5-a063-4364-946a-6bc31ddb1452/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e5931afc-192a-45f3-87b0-36065a083033/schema/main/table/tasks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/templates/finished_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="12" selection-start-line="28" selection-start-column="1" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/templates/unfinished_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/templates/create_task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e78749e5-a063-4364-946a-6bc31ddb1452/schema/main/table/to_do_list">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/py_doc/0/venv/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="1313" selection-start-line="1313" selection-end-line="1313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#li#5;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask2/app/templates/task_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1052">
+          <caret line="82" column="12" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="82" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/templates/task_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask1/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

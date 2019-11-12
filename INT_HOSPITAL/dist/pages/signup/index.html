@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Checkout example · Bootstrap</title>
+
+    <link rel="canonical" href="https://v4ing.bootcss.com/docs/4.3/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../../static/css/bootstrap.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="signup.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="../../static/img/head/pic.jpeg" alt="" width="72" height="72">
+    <h2>注册</h2>
+  </div>
+
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">填写信息</h4>
+      <div id="mistake" style="display: none" class="disabled alert alert-danger"></div>
+      <form class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="username">真实姓名</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="请填写真实姓名" required>
+          </div>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="password1">密码</label>
+          <input type="text" class="form-control" id="password1" placeholder="请输入密码" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="password2">密码<span class="text-muted">(再次确认)</span></label>
+          <input type="text" class="form-control" id="password2" placeholder="请输入密码">
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="sex">性别</label>
+            <select class="custom-select d-block w-100" id="sex" required>
+              <option value="null">选择...</option>
+              <option value="boy">男</option>
+              <option value="girl">女</option>
+            </select>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="age">年龄</label>
+            <input type="number" class="form-control" id="age" placeholder="" required>
+          </div>
+        </div>
+        <hr class="mb-4">
+
+        <h4 class="mb-3">类型</h4>
+
+        <div class="d-block my-3">
+          <div class="custom-control custom-radio">
+            <input id="register" name="type" type="radio" class="custom-control-input" value="registration" required>
+            <label class="custom-control-label" for="register">挂号台</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="doctor" name="type" type="radio" class="custom-control-input" value="doctor" required>
+            <label class="custom-control-label" for="doctor">医生</label>
+          </div>
+        </div>
+        <div class="row" style="margin-left: 6px;">
+          <div class="mb-3">
+            <label for="department">科室</label>
+            <input type="text" class="form-control" id="department" placeholder="" required>
+            <small class="text-muted">患者不用填写此项</small>
+
+          </div>
+        </div>
+
+        <hr class="mb-4">
+        <button id="signup_btn" class="btn btn-primary btn-lg btn-block" type="submit">注册</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1"></p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#"></a></li>
+
+    </ul>
+  </footer>
+  </body>
+      <script src="../../static/js/jquery-3.1.1.min.js"></script>
+      <script src="signup.js"></script>
+</html>

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Task<span style="margin-left: 5px;color: red">({{count}})</span></th>
+
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    {{q_type}}
+    {% for s in task %}
+    <tr>
+      <td>{{s.id}}</td>
+      <td>{{s.task_name}}</td>
+      <td>{{s.content}}</td>
+      <td>{{s.expire_date}}</td>
+      {% if s.status == 'unfinished' %}
+        <td style="color: red;">{{s.status}}</td>
+      {% else %}
+        <td style="color: green;">{{s.status}}</td>
+      {% endif %}
+
+      <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{s.id}}">Details</button></td>
+      <td><a href="/un_finish_task/{{s.id}}"><button type="button" class="btn btn-success">Done!</button></a></td>
+      <td><a href="/un_delete_task/{{s.id}}"><button type="button" class="btn btn-danger">x</button></a></td>
+        <!-- 模态框（Modal） -->
+      <div class="modal fade" id="{{s.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title" id="myModalLabel">Details</h4>
+                  </div>
+                  <div class="modal-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">task_name:{{s.task_name}}</li>
+                      <li class="list-group-item">content:{{s.content}}</li>
+                      <li class="list-group-item">create_time:{{s.add_time}}</li>
+                      <li class="list-group-item">deadline:{{s.expire_date}}</li>
+                      <li class="list-group-item">status:{{s.status}}</li>
+                      <li class="list-group-item">principal:{{s.principal}}</li>
+                      <li class="list-group-item">email:{{s.email}}</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                  </div>
+              </div><!-- /.modal-content -->
+          </div><!-- /.modal -->
+      </div>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
+
+

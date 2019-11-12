@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-md-6">
+<table class="table">
+    <thead>
+      <tr>
+        <th>Task</th>
+        <th>name</th>
+        <th>deadline</th>
+        <th>status</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{q_type}}
+    {% for s in task %}
+    <tr>
+      <td>{{s.id}}</td>
+      <td>{{s.task_name}}</td>
+      <td>{{s.deadline}}</td>
+      {% if s.status == 'uncompleted' %}
+        <td style="color: red;">{{s.status}}</td>
+      {% else %}
+        <td style="color: green;">{{s.status}}</td>
+      {% endif %}
+
+      <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{s.id}}">edit</button></td>
+      <td><a href="/complete_task/{{s.id}}"><button type="button" class="btn btn-success">Done!</button></a></td>
+      <td><a href="/delete_task/{{s.id}}"><span class="glyphicon glyphicon-remove text-danger"></span></a></td>
+        <!-- 模态框（Modal） -->
+      <div class="modal fade" id="{{s.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title" id="myModalLabel">Edit</h4>
+                  </div>
+                  <div class="modal-body">
+                      <form class="form-horizontal" action="" role="form" method="post">
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label">task_id</label>
+                            <div class="col-sm-10">
+                              <input type="text" name="task_id" readonly="readonly" class="form-control"  value="{{s.id}}">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label">task_name</label>
+                            <div class="col-sm-10">
+                              <input type="text" name="task_name" class="form-control"  value="{{s.task_name}}">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label">content</label>
+                            <div class="col-sm-10">
+                              <input type="text" name="content" class="form-control"  value="{{s.content}}">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label">create_time</label>
+                            <div class="col-sm-10">
+                              <input type="text" name="create_time" class="form-control" readonly="readonly" value="{{s.create_time}}">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label">deadline</label>
+                            <div class="col-sm-10">
+                              <input type="text" name="deadline" class="form-control"  value="{{s.deadline}}">
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-top: 15px;">
+                            <label class="col-sm-2 control-label">status</label>
+                            <div class="col-sm-10">
+                              <input type="text" name="status" readonly="readonly" class="form-control"  value="{{s.status}}">
+                            </div>
+                              </div>
+                        <div class="modal-footer">
+                          <button type="submit" class="btn btn-default">Confirm</button>
+                      </div>
+                        </form>
+                  </div>
+
+              </div><!-- /.modal-content -->
+          </div><!-- /.modal -->
+      </div>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}
+
+

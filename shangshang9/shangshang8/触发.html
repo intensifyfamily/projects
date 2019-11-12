@@ -1,0 +1,602 @@
+<html><head><avalon ms-skip="1" class="avalonHide">X<style id="avalonStyle">.avalonHide{ display: none!important }</style></avalon>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name="keywords" content="A股点买,合作操盘,股票点买,上上策,点买A股">
+    <meta name="description" content="上上策是撮合操盘手和投资人的股票合作交易平台,为广大股民提供安全、稳定、可靠的股票投资服务,策略人出策略,投资人出资金,风险共担,收益共享。">
+    <title>上上策 - 专业、安全、稳定的投资平台</title>
+    <link href="timg.jpg" rel="icon" type="image/x-icon">
+    <link href="css/page/home/merge.css" rel="stylesheet" type="text/css">
+    <script data-main="js/lib/main.min" src="js/lib/requirejs/require.min.js"></script>
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main.min" src="js/lib/main.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="avalon" src="js/lib/avalon/avalon.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="stockPrice" src="js/lib/../trade/stockPrice.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="numbers" src="js/lib/../utils/numbers.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="settle" src="js/lib/../trade/settle.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookies" src="js/lib/../utils/cookies.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="js/lib/../utils/text.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dialog" src="js/lib/../ui/dialog.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="validator" src="js/lib/../utils/validate.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tips" src="js/lib/../ui/tips.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="stockSearch" src="js/lib/../trade/stockSearch.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="queryString" src="js/lib/../utils/queryString.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lodash" src="js/lib/lodash/lodash.min.js?v=20160801"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dates" src="js/lib/../utils/dates.min.js?v=20160801"></script></head>
+
+<body>
+    <div class="main-header" avalonctrl="vmCommon">
+        <!--头部-->
+        <div class="head-title">
+            <div class="head-center clearfloat">
+                <div class="head-left fl">客服热线：<b>400-1536-299</b><small class="font14">（9:00-17:30）</small></div>
+                <ul class="head-right fr">
+                    <li class="app">
+                        <a href="#">APP下载</a>
+                        <div class="tip-warp">
+                            <i></i>
+                            <em></em>
+                            <div>
+                                <img src="images/erweim.png">
+                                <p>APP下载</p>
+                                <span>上上策</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="weixin">
+                        <a href="#">官方微信</a>
+                        <div class="tip-warp">
+                            <i></i>
+                            <em></em>
+                            <div>
+                                <img src="images/weix.png">
+                                <p>官方微信号</p>
+                                <span>上上策</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li style="display: none;"><a href="index.html">立即登录</a></li>
+                    <li style="display: none;"><a href="#">免费注册</a></li>
+                    <li style=""><a href="个人信息.html"class="red">您好！13425664435</a></li>
+                    <li class="account-hover" id="myAccount" style="">
+                        <a href="个人信息.html"class="account">我的账户</a>
+                        <div class="account-pop">
+                            <p>账户余额</p>
+                            <p class="clear"><b class="fl">0.00</b><i class="fl"></i><a href="充值.html" class="fr">充值</a></p>
+                            <div class="account-list">
+                                <span class="line"><a href="我的账户.html">个人中心</a></span>
+                                <span><a href="个人信息.html">个人资料</a></span>
+                                <span class="line"><a href="持仓.html">我的持仓</a></span>
+                                <span><a href="index.html">安全退出</a></span>
+                            </div>
+                            <i class="cur"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--导航-->
+        <div class="nav-container">
+            <div class="nav-center clearfloat">
+                <div class="fl">
+                    <img src="images/logo.png"></div>
+                <ul class="fr">
+                    <li><a href="#" target="_blank">首页</a></li>
+                    <li class="on">
+                        <a href="javascript:void(0);">A股交易</a>
+                        <div class="celue-list">
+                            <span><a href="买入.html">买入</a></span>
+                            <span><a href="持仓.html">持仓</a></span>
+                            <span><a href="结算.html">结算</a></span>
+                            <span><a href="触发.html">触发</a></span>
+                        </div>
+                    </li>
+                     <li><a href="#">打板专区</a></li>
+                    <li class="on">
+                        <a href="javascript:void(0);">个人中心</a>
+                        <div class="celue-list">
+                            <span><a href="我的账户.html">我的账户</a></span>
+                            <span><a href="充值.html">充值</a></span>
+                            <span><a href="提现.html">提现</a></span>
+                            <span class="cur"><a href="#">我的红包</a></span>
+                            <span><a href="资金明细.html">资金明细</a></span>
+                            <span class="cur"><a href="银行卡管理.html">银行卡管理</a></span>
+                            <span><a href="个人信息.html">个人信息</a></span>
+                            <span><a href="账户安全.html">账户安全</a></span>
+                        </div>
+                    </li>
+                    <li><a href="#">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    <div class="container" avalonctrl="vmTrade">
+        <div class="container-center">
+            <div class="navbar">
+                <ul class="clearfloat">
+                    <li class="list1">买入</li>
+                    <li class="list2">持仓</li>
+                    <li class="list3">结算</li>
+                    <li class="list4 active">触发</li>
+                </ul>
+            </div>
+            <div class="search-gu clearfloat" style="">
+                <div class="fl ding-center">
+                    <span class="span1">
+                        <img src="images/toux.png" width="100%" height="100%"></span>
+                    <span class="span2" avalonctrl="vmPos">
+                        <p>808850<a href="充值.html">立即充值</a></p>
+                        <p>账户余额：0.00元&nbsp;&nbsp;红包余额：0.00元 </p>
+                    </span>
+                </div>
+            </div>
+            <!--上策略-->
+            <div class="celue-wrap" style="background: rgb(255, 255, 255); display: none;">
+                <div class="celue-wrap-center">
+                    <div class="chart-wrap-center clear">
+                        <div class="chart-left fl">
+                            <div class="buy-top">
+                                <div class="clear">
+                                    <p class="fl gu-title">中国银行（沪 601988）<span style="display: none;"></span></p>
+                                    <span class="fr font18">更换股票</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="agu-table" avalonctrl="vmStockSearch" style="display: none;">
+                                    <div class="btn-table clear">
+                                        <input type="text" id="qryKeyword" placeholder="输入股票名称/代码/简拼" class="fl">
+                                        <button type="button" class="fl">取消</button>
+                                    </div>
+                                    <div class="search-list">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody><tr>
+                                                <th width="50%">名称</th>
+                                                <th width="25%">代码</th>
+                                                <th width="25%">简拼</th>
+                                            </tr>
+                                            <!--repeat12853249692--><!--repeat12853249692:end-->
+                                        </tbody></table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rate-center clear">
+                                <div class="rate-left fl blue">
+                                    <p><b>3.64</b><i class="down"></i></p>
+                                    <span class="rote-list"><i class="ml15">-0.04</i><i class="ml15">-1.09%</i></span>
+                                </div>
+                                <div class="position-right fr">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="mb10 sale">
+                                        <tbody><!--repeat850066816743--><tr>
+                                            <td style="width: 30px; text-align: left;">卖五</td>
+                                            <td style="width: 60px; text-align: right;">3.69</td>
+                                            <td style="text-align: right;">35,402</td>
+                                        </tr><!--repeat850066816743--><tr>
+                                            <td style="width: 30px; text-align: left;">卖四</td>
+                                            <td style="width: 60px; text-align: right;">3.68</td>
+                                            <td style="text-align: right;">33,147</td>
+                                        </tr><!--repeat850066816743--><tr>
+                                            <td style="width: 30px; text-align: left;">卖三</td>
+                                            <td style="width: 60px; text-align: right;">3.67</td>
+                                            <td style="text-align: right;">32,850</td>
+                                        </tr><!--repeat850066816743--><tr>
+                                            <td style="width: 30px; text-align: left;">卖二</td>
+                                            <td style="width: 60px; text-align: right;">3.66</td>
+                                            <td style="text-align: right;">67,936</td>
+                                        </tr><!--repeat850066816743--><tr>
+                                            <td style="width: 30px; text-align: left;">卖一</td>
+                                            <td style="width: 60px; text-align: right;">3.65</td>
+                                            <td style="text-align: right;">34,379</td>
+                                        </tr><!--repeat850066816743--><!--repeat850066816743:end-->
+                                    </tbody></table>
+                                    <table border="0" cellpadding="0" cellspacing="0" class="buy">
+                                        <tbody><!--repeat188879001298--><tr>
+                                            <td style="width: 30px; text-align: left;">买一</td>
+                                            <td style="width: 60px; text-align: right;">3.64</td>
+                                            <td style="text-align: right;">50,699</td>
+                                        </tr><!--repeat188879001298--><tr>
+                                            <td style="width: 30px; text-align: left;">买二</td>
+                                            <td style="width: 60px; text-align: right;">3.63</td>
+                                            <td style="text-align: right;">44,249</td>
+                                        </tr><!--repeat188879001298--><tr>
+                                            <td style="width: 30px; text-align: left;">买三</td>
+                                            <td style="width: 60px; text-align: right;">3.62</td>
+                                            <td style="text-align: right;">20,529</td>
+                                        </tr><!--repeat188879001298--><tr>
+                                            <td style="width: 30px; text-align: left;">买四</td>
+                                            <td style="width: 60px; text-align: right;">3.61</td>
+                                            <td style="text-align: right;">10,761</td>
+                                        </tr><!--repeat188879001298--><tr>
+                                            <td style="width: 30px; text-align: left;">买五</td>
+                                            <td style="width: 60px; text-align: right;">3.60</td>
+                                            <td style="text-align: right;">11,429</td>
+                                        </tr><!--repeat188879001298--><!--repeat188879001298:end-->
+                                    </tbody></table>
+                                </div>
+                            </div>
+                            <div class="division">
+                                <ul class="clear">
+                                    <li class="active">分时图</li>
+                                    <li>K线图</li>
+                                </ul>
+                                <div id="sline-box" style="width: 458px; height: 180px; margin: 20px auto; -webkit-tap-highlight-color: transparent; user-select: none; background: none;" _echarts_instance_="1573462470547"><div style="position: relative; overflow: hidden; width: 458px; height: 180px;"><div data-zr-dom-id="bg" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 458px; height: 180px; user-select: none;"></div><canvas width="458" height="180" data-zr-dom-id="0" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 458px; height: 180px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="458" height="180" data-zr-dom-id="1" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 458px; height: 180px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="458" height="180" data-zr-dom-id="_zrender_hover_" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 458px; height: 180px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas></div></div>
+                                <div id="kline-box" style="width: 463px; height: 180px; margin: 20px auto; display: none;"></div>
+                            </div>
+                            <div class="gu-message">
+                                <h4>股票信息</h4>
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <td style="width: 100px;">今开</td>
+                                        <td style="width: 100px;">3.67</td>
+                                        <td style="width: 50px;">振幅</td>
+                                        <td style="width: 80px;" class="txt-r">0.82%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>最高</td>
+                                        <td>3.67</td>
+                                        <td>最低</td>
+                                        <td class="txt-r">3.64</td>
+                                    </tr>
+                                    <tr>
+                                        <td>涨停价</td>
+                                        <td>4.05</td>
+                                        <td>跌停价</td>
+                                        <td class="txt-r">3.31</td>
+                                    </tr>
+                                    <tr>
+                                        <td>成交量</td>
+                                        <td>101.77万手</td>
+                                        <td>成交额</td>
+                                        <td class="txt-r">3.72亿元</td>
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                        </div>
+
+                        <div class="turnover-right fl pl20">
+                            <p class="red">买入金额<span class="blue fr font20 normal">今天还可以买入<b class="red two">20</b>次</span></p>
+                            <div class="buy-money">
+                                <ul class="clear buy-money-list">
+                                    <!--repeat386056711146--><li class="">0.2万</li><!--repeat386056711146--><li class="">0.5万</li><!--repeat386056711146--><li class="active">1万</li><!--repeat386056711146--><li class="">2万</li><!--repeat386056711146--><li class="">3万</li><!--repeat386056711146--><li class="">5万</li><!--repeat386056711146--><li class="">10万</li><!--repeat386056711146--><li class="">20万</li><!--repeat386056711146--><!--repeat386056711146:end-->
+                                </ul>
+                            </div>
+                            <div class="buy-right">
+                                <ul class="buy-right-list">
+                                    <li class="clear mt20" style="line-height:40px">
+                                        <p class="fl mr15"><b class="bold font20 red">可用资金</b></p>
+                                        <p class="fl ml30"><span class="font24 red normal">0.00</span><small>0.00</small></p>
+                                        <a href="充值.html" class="cz">充值</a>
+                                    </li>
+                                    <li>
+                                        <label class="font20 red bold">资金使用率</label>
+                                        <span class="normal font16 color3 ml20">可买<i class="red">2,700股</i>，资金利用率<i class="red">98.3%</i></span>
+                                    </li>
+                                    <li class="line">
+                                        <label><b class="font20 red">履约保证金</b><i class="ui-icon ui-icon-help" data-tip-msg="履约保证金为策略人委托平台冻结用于履行交易亏损赔付义务的保证金，结束时根据策略盈亏结算。保证金越低风险也越大，保证金越高抗风险也越高。"></i></label>
+                                        <div class="lvyue">
+                                            <!--repeat4160634859521--><span class="active">1,250</span><!--repeat4160634859521--><span>2,500</span><!--repeat4160634859521--><span>5,000</span><!--repeat4160634859521--><!--repeat4160634859521:end-->
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label>交易综合费<i class="ui-icon ui-icon-help" data-tip-msg="交易综合费包含买入和卖出时的交易佣金、过户费、印花税等。"></i></label>
+                                        <span>20.0元</span>
+                                    </li>
+                                    <li>
+                                        <label>触 发 止 损<i class="ui-icon ui-icon-help" data-tip-msg="当合作交易品种的浮动盈亏达到特定数值时，由投资人即时卖出交易品种全部持有数量进行止损。"></i></label>
+                                        <span>-1,050元</span>
+                                    </li>
+                                    <li>
+                                        <label>递 延 条 件<i class="ui-icon ui-icon-help" data-tip-msg="满足以下2个条件，自动递延：<br>1、不是高风险股票<br>2、在交易日14：55，策略满足公式：（浮动盈亏＋保证金）>买入金额*6％ 。"></i></label>
+                                        <span class="last">履约保证金金额&gt;600元</span>
+                                    </li>
+                                </ul>
+                                <div class="checkbox mt30">
+                                    <input type="checkbox" id="agree" name="checkboox[]" checked="checked">
+                                    <label for="agree">我已阅并签署以下协议</label>
+                                </div>
+                                <p class="xieyi">
+
+                                    <a href="#" target="_blank" class="txt-s12">《上上策投资人与策略人服务规则说明》</a><br>
+                                    <a href="#" target="_blank" class="txt-s12">《上上策服务协议》</a>
+                                </p>
+                                <div class="buy-btn-group" style="display: none;">
+                                    <button class="btn" type="button">立即买入</button>
+                                    <button class="btn" type="button">触发买入</button>
+                                </div>
+                                <div class="buy-btn-group">
+                                    <button class="btn btn-disabled" type="button">非交易时段</button>
+                                </div>
+                                <p style="font-size: 10px; padding: 10px 105px 0px; display: none;">
+                                    【中国银行】 <span class="red ">目前风险较高，禁止交易。<a href="#" onclick="OpenRisk()">查看风险股名单</a></span>
+                                </p>
+                                <span class="date">交易时间段：交易日9：30-11：30,13：00-14：55</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--上策略结束-->
+            <!--盯策略-->
+            <div class="celue-wrap" avalonctrl="vmPos" style="display: none;">
+                <div class="celue-wrap-center">
+                    <div class="table-ding">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table-up">
+                            <tbody><tr class="on">
+                                <th style="width: 195px;">合约</th>
+                                <th style="width: 280px;">合约摘要</th>
+                                <th style="width: 120px;">成本价</th>
+                                <th style="width: 120px;">当前价</th>
+                                <th style="width: 120px;">浮动盈亏</th>
+                                <th style="width: 120px;">递延条件</th>
+                                <th>操作</th>
+                            </tr>
+                            <!--repeat418979311097--><!--repeat418979311097:end-->
+                        </tbody></table>
+                        <div class="none-message">
+                            <p>暂时没有等待挂单的A股</p>
+                            <p>
+                                <button class="btn">立即添加</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--盯策略结束-->
+            <!--结算-->
+            <div class="celue-wrap" avalonctrl="vmSettlement" style="display: none;">
+                <div class="celue-wrap-center">
+                    <div class="table-ding">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table-up">
+                            <tbody><tr class="on">
+                                <th style="width: 160px;">结算时间</th>
+                                <th style="width: 160px;">卖出股票</th>
+                                <th style="width: 160px;">成交价格</th>
+                                <th style="width: 160px;">成交数量</th>
+                                <th style="width: 160px;">成交金额</th>
+                                <th style="width: 160px;">交易盈亏</th>
+                                <th>操作</th>
+                            </tr>
+                            <!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-31 10:54:56</td>
+                                <td><b class="blue">商赢环球</b></td>
+                                <td>19.89</td>
+                                <td>2,300.00</td>
+                                <td>45,747.00</td>
+                                <td>
+                                    <span class="blue">-2,553.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-31 10:54:52</td>
+                                <td><b class="blue">国盛金控</b></td>
+                                <td>11.41</td>
+                                <td>1,600.00</td>
+                                <td>18,256.00</td>
+                                <td>
+                                    <span class="blue">-1,088.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-31 10:54:48</td>
+                                <td><b class="blue">二六三</b></td>
+                                <td>5.66</td>
+                                <td>4,900.00</td>
+                                <td>27,734.00</td>
+                                <td>
+                                    <span class="blue">-1,862.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-28 09:46:20</td>
+                                <td><b class="blue">航天机电</b></td>
+                                <td>4.91</td>
+                                <td>9,800.00</td>
+                                <td>48,118.00</td>
+                                <td>
+                                    <span class="blue">-1,470.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-24 09:49:56</td>
+                                <td><b class="blue">天龙光电</b></td>
+                                <td>8.23</td>
+                                <td>3,600.00</td>
+                                <td>29,628.00</td>
+                                <td>
+                                    <span class="blue">-360.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-23 14:27:50</td>
+                                <td><b class="blue">永和智控</b></td>
+                                <td>13.74</td>
+                                <td>7,000.00</td>
+                                <td>96,180.00</td>
+                                <td>
+                                    <span class="blue">-2,870.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-23 14:27:47</td>
+                                <td><b class="blue">华媒控股</b></td>
+                                <td>5.26</td>
+                                <td>37,200.00</td>
+                                <td>195,672.00</td>
+                                <td>
+                                    <span class="blue">-3,720.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-22 11:23:28</td>
+                                <td><b class="red">格力电器</b></td>
+                                <td>58.15</td>
+                                <td>500.00</td>
+                                <td>29,075.00</td>
+                                <td>
+                                    <span class="red">35.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-22 11:23:25</td>
+                                <td><b class="blue">合兴包装</b></td>
+                                <td>4.26</td>
+                                <td>11,600.00</td>
+                                <td>49,416.00</td>
+                                <td>
+                                    <span class="blue">-580.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><tr>
+                                <td class="left-radius">19-10-22 11:23:20</td>
+                                <td><b class="red">格力电器</b></td>
+                                <td>58.15</td>
+                                <td>500.00</td>
+                                <td>29,075.00</td>
+                                <td>
+                                    <span class="red">5.00</span>
+                                </td>
+                                <td class="right-radius">
+                                    <a href="#" class="blue">查看详情</a>
+                                </td>
+                            </tr><!--repeat886336300705--><!--repeat886336300705:end-->
+                        </tbody></table>
+                        <div class="pagination clearfix " style="">
+                            <ul class="clearfix txt-c" style="margin-right: 0">
+                                <li>
+                                    <a title="上一页" class="page prev"></a>
+                                </li>
+
+                                <li>记录总数：<i style="color: red">170</i> &nbsp;&nbsp;页码： <i style="color: red">1</i>&nbsp;/&nbsp;17
+                                </li>
+                                <li>
+                                    <a title="下一页" class="page next"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--结算结束-->
+            <!--委托-->
+            <div class="celue-wrap" avalonctrl="vmRestingOrder" style="">
+                <div class="celue-wrap-center">
+                    <div class="table-ding">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table-up">
+                            <tbody><tr class="on">
+                                <th style="width: 180px;">挂单时间</th>
+                                <th style="width: 300px;">挂单合约</th>
+                                <th style="width: 160px;">挂单价</th>
+                                <th style="width: 160px;">当前价</th>
+                                <th style="width: 160px;">方向</th>
+                                <th>操作</th>
+                            </tr>
+                            <!--repeat976789754129--><!--repeat976789754129:end-->
+                        </tbody></table>
+                        <div class="none-message">
+                            <p>暂时没有等待交易的A股</p>
+                            <p>
+                                <button class="btn">立即添加</button>
+                            </p>
+                        </div>
+                        <div class="pagination clearfix " style="display: none;">
+                            <ul class="clearfix " style="margin-right: 0">
+                                <li>
+                                    <a title="上一页" class="page prev"></a>
+                                </li>
+
+                                <li style="line-height: 10px; height: 30px; vertical-align: middle">记录总数：<i style="color: red">0</i> &nbsp;&nbsp;页码： <i style="color: red">1</i>&nbsp;/&nbsp;0
+                                </li>
+                                <li>
+                                    <a title="下一页" class="page next"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--委托结束-->
+
+        </div>
+    </div>
+    <script src="js/lib/jquery/jquery.min.js"></script>
+    <script src="js/lib/echarts/echarts.js"></script>
+    <script src="js/lib/echarts/echarts.extend.js"></script>
+    <script src="js/lib/echarts/echarts.common.js"></script>
+    <script src="js/trade/trade.min.js?v=20170831"></script>
+    <script type="text/javascript">
+        function OpenRisk() {
+            window.open('StockRisk.html', 'RiskDiv', 'height=500,width=800,top=100,left=50, scrollbars=yes');
+        }
+    </script>
+
+    </div>
+
+    <div class="footer-container" avalonctrl="vmCommon">
+        <div class="footer-center clear">
+            <div class="foot-left fl">
+                <ul class="foot-list clear">
+                    <li><a href="#">财经词库</a></li>
+                    <li><a href="#">网站地图</a></li>
+                    <li><a href="我的账户.html">我的账户</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+                <div class="address">
+                    <p>地址：  上海市松江区洞泾镇长兴东路1586号</p>
+                    <p>Copyright © 2014-2016 www.shangshang8.com 上上策 版权所有 </p>
+                    <p><a target="_blank" href="http://www.miit.gov.cn/" style="color:#FFF;">网站备案：沪ICP备16023668号-2</a></p>
+                </div>
+            </div>
+            <div class="foot-center fl">
+                <span>
+                    <img src="images/erweim.png">
+                    <p>扫描二维码</p>
+                    <p>下载上上策APP</p>
+                </span>
+                <span>
+                    <img src="images/weix.png">
+                    <p>扫描二维码</p>
+                    <p>关注上上策公众号</p>
+                </span>
+            </div>
+            <div class="foot-right fl">
+                <h2>欢迎致电</h2>
+                <h2>400-1536-299</h2>
+                <p>电话客服工作时间：09：00-17:30</p>
+                <p>微信客服工作时间：09：00-22:00</p>
+            </div>
+        </div>
+        <div class="footer-img">
+            <a href="javascript:viod(0);">
+                <img src="images/cx.png"></a>
+            <a href="javascript:viod(0);">
+                <img src="images/id.png"></a>
+            <a href="javascript:viod(0);">
+                <img src="images/china.png"></a>
+            <a href="javascript:viod(0);">
+                <img src="images/safe.png"></a>
+        </div>
+    </div>
+    <!--客服-->
+    <div class="kefu-phone" avalonctrl="vmCommon">
+        <a href="javascript:void(0);" class="mod-side mod-side-kf"></a>
+    </div>
+
+
+</body>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="click_event.js"></script></html>
+</html>

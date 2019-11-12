@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:url(../img/background2.png) no-repeat 50% 50%;
+	background-size: cover;
+
+}
+
+a{
+	text-decoration: none;
+
+}
+form{
+	width: 535px;
+	height: 500px;
+	margin: 0px auto;
+	/*background-color: red;*/
+
+}
+form input{
+	width: 350px;
+	height: 40px;
+	margin:10px -40px;
+}
+i{
+	font-style: normal;
+	float: left;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin: 8px -15px;
+	text-decoration: none;
+	color: #fff;
+}
+input::webkit-input-placeholder{
+	color: red;
+}
+#regist{
+	width: 600px;
+	height:520px;
+	margin:160px auto;
+	border-radius: 20px;
+	border: 1px solid ##211D59;
+
+}
+.rgba{
+	
+	background-color: rgba(0,0,0,0.3);
+}
+
+#regist h2{
+	color: #ffff;
+	margin:5px auto;
+	text-align: center;
+	font-size: 30px;
+	font-family: Open Sans;
+}
+
+#regist .name-icon{
+	width: 107.29px;
+	height: 44px;
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	margin:10px 50px;
+}
+#regist .name-icon i{
+	background: url(../img/icon/xigua.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+/*sex*/
+
+#regist .name-sex{
+	width: 150.29px;
+	height: 44px;
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	margin:0px 50px;
+}
+
+#regist .name-sex i{
+	background: url(../img/icon/lizhi.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+
+#regist  .sex{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	margin: 12px 20px;
+}
+
+/**/
+#regist .name-iconi{
+	height: 44px;
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	margin:10px 50px;
+
+}
+
+#regist .name-iconi i{
+	background: url(../img/icon/caomei.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#regist .name-email{
+	width: 107.29px;
+	height: 44px;
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	margin:10px 50px;
+}
+#regist .name-email i{
+	background: url(../img/icon/niuyouguo.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+
+#regist span{
+	margin:20px 24px;
+	color: #fff;
+	float: left;
+}
+
+#regist a{
+	margin: -50px 30px;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+}
+
+ #regist .login{
+ 	font-size: 20px;
+ 	color: #fff;
+ 	width: 200px;
+ 	height: 40px;
+ 	margin: 10px 200px;
+ 	background-color: #5B5C73;
+ 	border: none;
+ 	cursor: pointer;
+ 	border-radius: 15px;
+
+ }
+
+ #regist .login:hover{
+ 	background-color: black;
+ }
+
+  #regist .code_input{
+  	width: 150px;
+  	height: 40px;
+	float: left;
+	margin: 0px 0px;
+	/*background-color: red;*/
+  }
+
+  #regist .code_button{
+  	width: 50px;
+	height: 44px;
+	float: left;
+  }
+
+  #regist .v_container{
+  	width: 150px;
+  	height: 42px;
+  	float: left;
+  	margin: 2px 70px;
+  	/*background-color: red;*/
+  }

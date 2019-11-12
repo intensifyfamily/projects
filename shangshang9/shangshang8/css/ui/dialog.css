@@ -1,0 +1,116 @@
+/************************************************************************************************
+* å¼¹æ¡†ç»„ä»¶
+*************************************************************************************************/
+
+.ui-dialog-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
+
+.ui-dialog {
+    position: fixed;
+    padding: 6px;
+}
+
+.ui-dialog-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 21px;
+    height: 21px;
+    line-height: 1;
+    font-size: 0;
+    background: url(../../images/close.png) no-repeat;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.ui-dialog-close:hover {
+    background-position: 0px 0px;
+}
+
+.ui-dialog-skin {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .1;
+    filter: alpha(opacity=10);
+    /*background-color: #000000;*/
+}
+
+.ui-dialog-wrap {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    background: #fff;
+    /*border: 1px solid #999999;*/
+    overflow: hidden;
+    padding:30px 40px;
+    border-radius:20px;
+}
+
+.ui-dialog-header {
+    font-size:24px;
+    color:#f0624f;
+    text-align:center;
+    line-height: 30px;
+    /*border-bottom: 1px solid #999999;*/
+    padding: 0 10px;
+    /*background: url("images/ui/dialog/ui-dialog-header.jpg") repeat-x;*/
+    background-size:15px 15px;
+}
+.ui-dialog-footer {
+    text-align: center;
+}
+
+/*.ui-dialog-icon-wrap {
+    padding: 40px 0 20px;
+}*/
+
+.ui-dialog-icon {
+    width: 63px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.ui-dialog-icon-wrap .info {
+    background-position: -220px 0px;
+}
+
+.ui-dialog-icon-wrap .ok {
+    background-position: -110px 0px;
+}
+
+.ui-dialog-icon-wrap .error {
+    background-position: 0 0;
+}
+
+.ui-dialog-msg {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+.ui-dialog-msg span{
+    display:block;
+    margin-bottom:10px;
+    padding-left:5px;
+}
+.ui-dialog-msg a{
+    color:#75b4ff;
+    line-height:25px;
+}
+.ui-dialog-footer input[type='button']{
+    width: 140px;
+    height: 45px;
+    background: #f0624f;
+    color:#333;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

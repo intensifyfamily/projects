@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>信息收集</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../../static/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../static/css/bootstrap-reboot.css">
+
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="../../static/image/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    信息采集
+  </a>
+</nav>
+<div class="container">
+    <form>
+
+      <div class="form-row">
+          <div class="form-group col">
+            <label for="stu_name">姓名</label>
+            <input type="text" class="form-control" id="stu_name" aria-describedby="姓名" placeholder="姓名" required>
+          </div>
+
+          <div class="form-group col">
+            <label for="stu_age">年龄</label>
+            <input type="number" class="form-control" id="stu_age" aria-describedby="年龄" placeholder="年龄" required>
+          </div>
+      </div>
+
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">性别</legend>
+      <div class="col-sm-10" style="margin-left: 10%;">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="sex" id="gridRadios1" value="1">
+          <label class="form-check-label" for="gridRadios1">
+            男孩子
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="sex" id="gridRadios2" value="2">
+          <label class="form-check-label" for="gridRadios2">
+            女孩子
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+      <div class="form-group">
+        <label for="stu_num">学号</label>
+        <input type="text" class="form-control" id="stu_num" placeholder="学号" required>
+      </div>
+        <div class="form-group">
+        <label for="phone">电话</label>
+        <input type="text" class="form-control" id="phone" placeholder="电话" required>
+      </div>
+
+
+      <div class="form-group">
+        <label for="college">学院</label>
+            <select id="college" class="form-control">
+              <option selected>Choose...</option>
+              <option>通信与信息工程学院</option>
+                <option>传媒与艺术学院</option>
+                <option>光电工程学院</option>
+                <option>理学院</option>
+            </select>
+      </div>
+        <div class="form-group">
+        <label for="class_num">班级</label>
+        <input type="text" class="form-control" id="class_num" placeholder="班级" required>
+      </div>
+        <div class="form-group">
+        <label for="major">专业</label>
+        <input type="text" class="form-control" id="major" placeholder="专业" required>
+      </div>
+
+      <div class="form-group">
+        <label for="department">部门</label>
+        <input type="text" class="form-control" id="department" placeholder="组织+部门" required>
+      </div>
+
+      <div class="form-group">
+        <label for="position">职位</label>
+        <input type="text" class="form-control" id="position" placeholder="职位" required>
+      </div>
+        <!--警告-->
+        <div id="error" class="alert alert-danger" style="display: none" role="alert"></div>
+        <button id="confirm_btn" type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter">
+        确定
+        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">信息确认</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+              <small class="row" style="margin-left: 20%">姓名：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">年龄：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">性别：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">学号：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">电话：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">学院：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">班级：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">专业：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">部门：<span class="msg"></span></small>
+              <small class="row" style="margin-left: 20%">职位：<span class="msg"></span></small>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">修改</button>
+        <button id="submit_btn" type="submit" class="btn btn-primary">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </form>
+    <div style="height: 10px;"></div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="../../static/js/bootstrap.js"></script>
+<script src="../../static/js/bootstrap.bundle.js"></script>
+<script src="../../static/js/home/index.js"></script>
+</html>

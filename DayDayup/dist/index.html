@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>信息收集</title>
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="static/css/bootstrap-reboot.css">
+	<link href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+	<style>
+
+        body::-webkit-scrollbar {
+            width: 4px;    
+            height: 4px;
+        }
+        body::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            background: rgba(0,0,0,0.2);
+        }
+        body::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            border-radius: 0;
+            background: rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px){
+    	    #bg{background-position: -99999px -99999px;}
+		    #bg:before {
+		        content: ""; 
+		        background: url("static/image/bg_1.png") no-repeat -30% 0px;
+		        position: fixed; 
+		        top: 0; 
+		        left: 0; 
+		        height: 100vh; 
+		        width: 100%; 
+		        -webkit-background-size: cover !important; 
+		        -moz-background-size: cover !important; 
+		        -o-background-size: cover; 
+		        background-size: cover !important;
+		        z-index: -1;
+		    }
+/*            #bg {
+                background: url("static/image/bg_1.png") no-repeat 0px 0px;
+                background-size: 100vw 100vh;
+                background-attachment:fixed
+            }*/
+        }
+
+        @media(min-width:769px){
+            #bg {
+                background: url("static/image/bg_2.png") no-repeat 0px 0px;
+                background-size: 100vw 100vh;
+                background-attachment:fixed
+            }
+        }
+        input,select,button{
+            filter: alpha(opacity=80);
+            -moz-opacity: .8;
+            opacity: .8;
+        }
+        .container {
+            padding-top: 56px;
+            font-family: YouYuan;
+        }
+        #nvbar {
+            position: fixed;
+            font-family: Verdana;
+        }
+    </style>
+
+</head>
+<body>
+<div id="bg">
+	<div id="nvbar">
+		<nav class="navbar navbar-light shadow-lg" style="width: 100vw;">
+		  <a class="navbar-brand text-white" href="#">
+		    <img src="static/image/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" style="border-radius: 5px;">
+		    information
+		  </a>
+		</nav>
+	</div>
+<!-- <input type="text" name="success" id="success" value="成功" /> -->
+	<div class="container">
+	    <form>
+	      <div class="form-row">
+	          <div class="form-group col">
+	            <label class="text-white-50" for="stu_name">姓名</label>
+	            <input type="text" class="form-control" id="stu_name" aria-describedby="姓名" placeholder="姓名" required>
+	          </div>
+
+	          <div class="form-group col">
+	            <label class="text-white-50" for="stu_age">年龄</label>
+	            <input type="number" class="form-control" id="stu_age" aria-describedby="年龄" placeholder="年龄" required>
+	          </div>
+	      </div>
+
+		  <fieldset class="form-group">
+		    <div class="row">
+		      <legend class="col-form-label col-sm-2 pt-0 text-white-50">性别</legend>
+		      <div class="col-sm-10" style="margin-left: 10%;">
+		        <div class="form-check" style="color: deepskyblue">
+		          <input class="form-check-input" type="radio" name="sex" id="gridRadios1" value="1">
+		          <label class="form-check-label" for="gridRadios1">
+		            男孩子
+		          </label>
+		        </div>
+		        <div class="form-check" style="color: hotpink">
+		          <input class="form-check-input" type="radio" name="sex" id="gridRadios2" value="2">
+		          <label class="form-check-label" for="gridRadios2">
+		            女孩子
+		          </label>
+		        </div>
+		      </div>
+		    </div>
+		  </fieldset>
+		      <div class="form-group">
+		        <label class="text-white-50" for="nation">民族</label>
+		        <input type="text" class="form-control" id="nation" placeholder="民族全称（如：汉族、土家族…）" required>
+		      </div>
+		      <div class="form-group">
+		        <label class="text-white-50" for="stu_num">学号</label>
+		        <input type="text" class="form-control" id="stu_num" placeholder="学号" required>
+		      </div>
+		        <div class="form-group">
+		        <label class="text-white-50" for="phone">电话</label>
+		        <input type="text" class="form-control" id="phone" placeholder="电话" required>
+		      </div>
+		      <div class="form-group">
+		        <label class="text-white-50" for="stu_id">身份证号码</label>
+		        <input type="text" class="form-control" id="stu_id" placeholder="身份证号码" required>
+		      </div>
+		      <div class="form-group">
+		        <label class="text-white-50" for="stu_birth">生日（标明农历/公历）</label>
+		        <input type="text" class="form-control" id="stu_birth" placeholder="生日（如：1998.12.14(公历)）" required>
+		      </div>
+		      <div class="form-group">
+		        <label class="text-white-50" for="stu_addr">家庭住址</label>
+		        <input type="text" class="form-control" id="stu_addr" placeholder="家庭住址（省份+市区如：四川成都、重庆酉阳…）" required>
+		      </div>
+
+
+		      <div class="form-group">
+		        <label class="text-white-50" for="college">学院</label>
+		            <select id="college" class="form-control">
+		              <option selected>Choose...</option>
+		              <option>通信与信息工程学院</option>
+		                <option>光电工程学院</option>
+		                <option>经济管理学院</option>
+		                <option>计算机科学与技术学院</option>
+		                <option>外国语学院</option>
+		                <option>生物信息学院</option>
+		                <option>网络空间安全与信息法学院</option>
+		                <option>自动化学院</option>
+		                <option>体育学院</option>
+		                <option>马克思主义学院</option>
+		                <option>理学院</option>
+		                <option>传媒艺术学院</option>
+		                <option>软件工程学院</option>
+		                <option>先进制造工程学院</option>
+		                <option>国际学院</option>
+		                <option>国际半导体学院</option>
+		                <option>现代邮政学院</option>
+		                <option>校企联合培养项目</option>
+		                <option>其他</option>
+		            </select>
+		      </div>
+		        <div class="form-group">
+		        <label class="text-white-50" for="class_num">班级</label>
+		        <input type="text" class="form-control" id="class_num" placeholder="班级号" required>
+		      </div>
+		        <div class="form-group">
+		        <label class="text-white-50" for="major">专业</label>
+		        <input type="text" class="form-control" id="major" placeholder="专业" required>
+		      </div>
+
+		      <div class="form-group">
+		        <label class="text-white-50" for="department">所在部门</label>
+		        <input type="text" class="form-control" id="department" placeholder="部门全称（如：办公室、记者团、项目部…）" required>
+		      </div>
+
+		      <div class="form-group">
+		        <label class="text-white-50" for="position">职位</label>
+		        <input type="text" class="form-control" id="position" placeholder="职位（干事）" required>
+		      </div>
+		      <div class="form-group">
+		        <label class="text-white-50" for="others">其他任职(班委，其他组织任职情况，助理等)</label>
+		        <input type="text" class="form-control" id="others" placeholder="其他任职（如：XX组织XX部门干事、组织委员）" required>
+		      </div>
+		        <!--警告-->
+		        <div id="error" class="alert alert-danger" style="display: none" role="alert"></div>
+		        <button id="confirm_btn" type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#confirm_modal">
+		        确定
+		        </button>
+	   		</form>
+		<div style="height: 10px;"></div>
+	</div>
+<!-- Modal -->
+	<div class="modal fade" id="confirm_modal" tabindex="-1" role="dialog" aria-labelledby="confirm_modalTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="confirm_modalTitle">信息确认</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	              <small class="row" style="margin-left: 20%">姓名：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">年龄：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">性别：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">学号：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">电话：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">学院：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">班级：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">专业：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">部门：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">职位：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">身份证号：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">民族：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">家庭住址：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">其他任职：<span class="msg"></span></small>
+	              <small class="row" style="margin-left: 20%">生日：<span class="msg"></span></small>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">修改</button>
+	        <button id="submit_btn" type="submit" class="btn btn-primary">提交</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="static/js/bootstrap.js"></script>
+<script src="static/js/bootstrap.bundle.js"></script>
+<script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+<script src="static/js/home/index.js"></script>
+</html>
